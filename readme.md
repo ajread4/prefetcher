@@ -2,8 +2,14 @@
 
 Parse Windows 10 Prefetch Files with Python3! 
 
-## Install
+The tool utilizes [libscca](https://github.com/libyal/libscca/tree/0d5730412962994fae35ce6dc9e85a97e81882dc) to interact with Windows prefetch files. There are plans for more capabilities to be added in the future! 
 
+## Install
+```
+git clone https://github.com/ajread4/prefetcher.git
+cd prefetcher
+pip3 install -r requirements.txt
+```
 
 ## Usage
 ```
@@ -76,6 +82,20 @@ Volume Information
 \VOLUME{01d951602330db46-52233816}
 ```
 
+
+## Future Versions
+
+More capabilities are set to be added in the future to include: 
+- Keyword searching 
+- Directory identification 
+- Recursive directory parsing 
+- Suspicious name detection 
+- Much more! 
+
 ## Credit
 
 The code for Prefetcher was written by me, AJ Read, with inspiration from [w10pf_parser.py](https://github.com/DavidCruciani/tools/blob/master/win10_prefetch/w10pf_parse.py). 
+
+- Twitter: [ajread3](https://twitter.com/ajread3)
+- Github: [ajread4](https://github.com/ajread4)
+- LinkedIn: [Austin Read](https://www.linkedin.com/in/austin-read-88953b189/)
