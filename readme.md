@@ -28,7 +28,7 @@ options:
 ## Example Usage
 1. Analyze a prefetch file and return run times, referenced files, and volumes. 
 ```
-$ python3 prefetcher.py -p SCHTASKS.EXE-DC1676CD.pf 
+$ python3 prefetcher.py -f SCHTASKS.EXE-DC1676CD.pf 
 Analyzing: SCHTASKS.EXE-DC1676CD.pf
 
 Executable Name: SCHTASKS.EXE
