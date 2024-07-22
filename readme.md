@@ -20,7 +20,7 @@ Prefetcher - Parse Windows 10 Prefetch Files
 
 options:
   -h, --help            show this help message and exit
-  -p prefetch_file, --file prefetch_file  prefetch file to analyze
+  -f prefetch_file, --file prefetch_file  prefetch file to analyze
   -d prefetch_directory, --directory prefetch_directory   directory of prefetch files to analyze
 
 ```
@@ -28,7 +28,7 @@ options:
 ## Example Usage
 1. Analyze a prefetch file and return run times, referenced files, and volumes. 
 ```
-$ python3 prefetcher.py SCHTASKS.EXE-DC1676CD.pf 
+$ python3 prefetcher.py -p SCHTASKS.EXE-DC1676CD.pf 
 Analyzing: SCHTASKS.EXE-DC1676CD.pf
 
 Executable Name: SCHTASKS.EXE
