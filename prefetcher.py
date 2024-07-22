@@ -71,7 +71,7 @@ def main():
 	Main function for prefetcher
 	"""
 	parser = argparse.ArgumentParser(description='Prefetcher - Parse Windows 10 Prefetch Files')
-	parser.add_argument('-p','--file', action='store', help='prefetch file to analyze',metavar='prefetch_file')
+	parser.add_argument('-f','--file', action='store', help='prefetch file to analyze',metavar='prefetch_file')
 	parser.add_argument('-d','--directory',action='store',help='directory of prefetch files to analyze', metavar='prefetch_directory')
 
 	args = parser.parse_args()
