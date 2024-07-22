@@ -14,15 +14,14 @@ pip3 install -r requirements.txt
 ## Usage
 ```
 $ python3 prefetcher.py -h
-usage: prefetcher.py [-h] prefetch_file
+usage: prefetcher.py [-h] [-p prefetch_file] [-d prefetch_directory]
 
 Prefetcher - Parse Windows 10 Prefetch Files
 
-positional arguments:
-  prefetch_file  prefetch file to analyze
-
 options:
-  -h, --help     show this help message and exit
+  -h, --help            show this help message and exit
+  -p prefetch_file, --file prefetch_file  prefetch file to analyze
+  -d prefetch_directory, --directory prefetch_directory   directory of prefetch files to analyze
 
 ```
 
